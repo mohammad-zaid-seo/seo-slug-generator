@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -24,7 +25,7 @@
       background: #ffffff;
       padding: 20px;
       max-width: 600px;
-      width: 100%;
+      width: 90%; /* Adjusted for better mobile fit */
       border-radius: 10px;
       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
       text-align: center;
@@ -32,7 +33,7 @@
 
     /* Header Styles */
     h1 {
-      font-size: 1.8em;
+      font-size: 1.5em; /* Adjusted font size for mobile */
       color: #333333;
       margin-bottom: 10px;
       white-space: nowrap;
@@ -40,6 +41,7 @@
       text-overflow: ellipsis;
     }
 
+    /* Paragraph Styles */
     p {
       color: #666666;
       margin-bottom: 20px;
@@ -105,6 +107,24 @@
 
     .copy-btn:hover {
       background: linear-gradient(to right, #218838, #1c7430);
+    }
+
+    /* Responsive Adjustments */
+    @media (max-width: 480px) {
+      .container {
+        padding: 15px;
+      }
+      h1 {
+        font-size: 1.2em;
+      }
+      textarea, button {
+        padding: 10px;
+        font-size: 0.9em;
+      }
+      .copy-btn {
+        padding: 10px;
+        font-size: 0.9em;
+      }
     }
   </style>
 </head>
