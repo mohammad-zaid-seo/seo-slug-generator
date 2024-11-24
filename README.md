@@ -108,7 +108,7 @@
 <body>
 
   <div class="container">
-    <h1>Mohammad Zaid SEO Slug Generator Tool</h1>
+    <h1>SEO-Friendly Slug Generator Tool</h1>
     <p>Enter text to generate an SEO-friendly slug:</p>
 
     <textarea id="textInput" rows="4" placeholder="Paste your URL here..."></textarea>
