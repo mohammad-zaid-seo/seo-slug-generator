@@ -1,8 +1,12 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Zaid Slug Generator Tool</title>
+  <title>SEO-Friendly Slug Generator Tool</title>
+  <meta name="description" content="Generate SEO-friendly slugs effortlessly with our online tool.">
+  <meta name="robots" content="index,follow" />
+  <meta name="keywords" content="SEO, slug generator, URL optimization">
   <style>
     /* General Body Styles */
     body {
@@ -29,12 +33,12 @@
 
     /* Header Styles */
     h1 {
-      font-size: 1.8em; /* Adjust font size */
+      font-size: 1.8em;
       color: #333333;
       margin-bottom: 10px;
-      white-space: nowrap; /* Prevents text from breaking into multiple lines */
-      overflow: hidden; /* Prevents overflow */
-      text-overflow: ellipsis; /* Adds "..." if the text overflows */
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
     }
 
     p {
@@ -54,9 +58,9 @@
     }
 
     textarea {
-      resize: none; /* Prevent manual resizing */
-      overflow-y: auto; /* Show scrollbar only when necessary */
-      box-sizing: border-box; /* Prevent padding from overflowing */
+      resize: none;
+      overflow-y: auto;
+      box-sizing: border-box;
     }
 
     button {
@@ -111,7 +115,7 @@
     <h1>SEO-Friendly Slug Generator Tool</h1>
     <p>Enter text to generate an SEO-friendly slug:</p>
 
-    <textarea id="textInput" rows="4" placeholder="Paste your URL here..."></textarea>
+    <textarea id="textInput" rows="4" placeholder="Type your text here..."></textarea>
     <button onclick="generateSlug()">Generate Slug</button>
 
     <div class="output" id="output">Your generated slug will appear here...</div>
